@@ -1,6 +1,6 @@
 ---
-title: Developer Portal
-header: Developer Portal
+title: Warda Swag Developer Portal
+header: Warda Dev Portal
 tagline: Your gateway to the data.
 gettingStartedButton: Get Started
 apiListButton: Our APIs
@@ -13,3 +13,7 @@ Read the Getting Started guide to learn how to hit the ground running to get an 
 See what APIs we have to offer, including extensive documentation, and generated SDKs.
 
 Sign in to manage your subscriptions, see your current usage, get your API Key, and test against our live API.
+
+# Home
+
+Welcome to SeeCommerce Developer Portal.
