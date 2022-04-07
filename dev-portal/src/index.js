@@ -18,6 +18,8 @@ import Home from 'pages/Home'
 import GettingStarted from 'pages/GettingStarted'
 import Dashboard from 'pages/Dashboard'
 import Apis from 'pages/Apis'
+import CDMF1 from 'pages/CDMF1'
+import Authentication from 'pages/Authentication'
 import { Admin } from 'pages/Admin'
 
 // components

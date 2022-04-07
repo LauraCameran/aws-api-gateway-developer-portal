@@ -74,7 +74,7 @@ require('./internal/execute-tasks.js')({
   async release () {
     await this.build()
     await deployTemplate()
-    await this['reset-assets']()
+    //await this['reset-assets']()
     printReady()
   },
 
