@@ -19,6 +19,7 @@ import GettingStarted from 'pages/GettingStarted'
 import Dashboard from 'pages/Dashboard'
 import Apis from 'pages/Apis'
 import { Admin } from 'pages/Admin'
+import CDMF1 from 'pages/CDMF1'
 
 // components
 import AlertPopup from 'components/AlertPopup'
@@ -101,6 +102,7 @@ class App extends React.Component {
             <RegisteredRoute path='/dashboard' component={DashboardWrap} />
             <AdminRoute path='/admin' component={Admin} />
             <Route exact path='/apis' component={Apis} />
+            <Route exact path='/cdmf' component={CDMF1} />
             <Route exact path='/apis/search' component={ApiSearch} />
             <Route exact path='/apis/:apiId' component={Apis} />
             <Route path='/apis/:apiId/:stage' component={Apis} />

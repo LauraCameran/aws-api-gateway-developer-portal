@@ -41,6 +41,7 @@ export const NavBar = observer(
 
         <MenuLink to='/getting-started'>{fragments.GettingStarted.title}</MenuLink>
         <MenuLink to='/apis'>{fragments.APIs.title}</MenuLink>
+        <MenuLink to='/cdmf'>{fragments.CDMF1.title}</MenuLink>
 
         <Menu.Menu position='right'>
           {isAuthenticated() ? <>
